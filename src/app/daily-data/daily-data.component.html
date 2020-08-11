@@ -1,0 +1,50 @@
+<div class="row">
+  
+    <div class="col-sm"></div>
+  
+    <div class="col-md-4 col-sm-6">
+  <br>
+    <div class="text-center"><h2 class="form-signin-heading">Enter Daily data</h2></div>
+  <!-- daily data  Form -->
+  <form #createForm="ngForm"  (ngSubmit)="saveDailyData()">
+    <span>UniqueID:(You Can create one if you don't have) </span>
+  
+      <label for="uniqueId" class="sr-only">Distance (in metres)</label>
+  
+      <input type="text" name="uniqueId" id="uniqueId" class="form-control" [(ngModel)]="uniqueId" placeholder="Enter UniqueID" required autofocus>
+  
+      <br>
+      <span>Distance: </span>
+  
+      <label for="distance" class="sr-only">Distance</label>
+  
+      <input type="number" name="distance" id="distance" class="form-control" [(ngModel)]="distance" placeholder="Enter Distance" required autofocus>
+  
+      <br>
+      <span>Date: </span>
+  
+      <label for="date" class="sr-only">Date</label>
+  
+      <input type="date" name="date" id="date" class="form-control" [(ngModel)]="date" placeholder="Enter date" required autofocus>
+  
+      <br>
+      <span>Time: </span>
+  
+      <label for="time" class="sr-only">Time</label>
+  
+      <input type="time" name="time" id="time" class="form-control" [(ngModel)]="time" placeholder="Enter Time" required autofocus>
+  
+      <br>
+      <button class="btn btn-lg btn-success btn-block" type="button" on-click="saveDailyData()">Save data</button>
+  </form>
+  <br>
+  <div class="text-center">Go Back To Home Page <button class="btn btn-dark" [routerLink]="['/home']">Click Here</button></div>
+
+  
+    </div>
+  
+    <div class="col-sm"></div>
+  
+  </div>
+  
+  

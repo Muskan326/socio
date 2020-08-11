@@ -1,0 +1,20 @@
+.navbar-brand{
+    position:absolute;
+    left:44%;
+    height:3rem;
+    font-size:x-large;
+    color: honeydew;
+    font-size: 1.5rem;
+    font-family: serif;
+    font-weight: 600;
+}
+.navbar{
+    
+    padding-top: 2rem;
+    background-color: #138D75 ;
+    height:3rem;
+}
+
+.text-center{
+    margin-top: 20rem;
+}

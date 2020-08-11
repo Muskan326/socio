@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sociopool"
+    }
+  },
+  "defaultProject": "sociopool",
+  "cli": {
+    "analytics": "8758c5f9-2f9c-4eae-82c7-e09a60bf3fb3"
+  }
 }
